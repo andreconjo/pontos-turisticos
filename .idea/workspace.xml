@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07caef1a-4340-4ca3-b465-4ebfaf0a81f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/atracoes/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atracoes/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atracoes/api/viewsets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/avaliacoes/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/avaliacoes/api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/avaliacoes/api/viewsets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comentarios/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comentarios/api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/comentarios/api/viewsets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
@@ -38,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/avaliacoes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,6 +49,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/avaliacoes" />
+      <recent name="$PROJECT_DIR$/comentarios" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.migrate">
     <configuration name="makemigrations" type="PythonConfigurationType" factoryName="Python">
@@ -144,7 +153,7 @@
       <updated>1577497370409</updated>
       <workItem from="1577497387833" duration="95000" />
       <workItem from="1577497486068" duration="5000" />
-      <workItem from="1577497503557" duration="3552000" />
+      <workItem from="1577497503557" duration="4625000" />
     </task>
     <servers />
   </component>
@@ -156,25 +165,25 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="424" y="262" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1577501765649" />
-    <state width="1878" height="334" key="GridCell.Tab.0.bottom" timestamp="1577502519541">
+    <state width="1878" height="334" key="GridCell.Tab.0.bottom" timestamp="1577503589253">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1577502519541" />
+    <state width="1878" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1577503589253" />
     <state width="1358" height="335" key="GridCell.Tab.0.bottom/0.23.1920.1139@0.23.1920.1139" timestamp="1577500742571" />
-    <state width="1878" height="334" key="GridCell.Tab.0.center" timestamp="1577502519540">
+    <state width="1878" height="334" key="GridCell.Tab.0.center" timestamp="1577503589252">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="334" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1577502519540" />
+    <state width="1878" height="334" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1577503589252" />
     <state width="1358" height="335" key="GridCell.Tab.0.center/0.23.1920.1139@0.23.1920.1139" timestamp="1577500742570" />
-    <state width="1878" height="334" key="GridCell.Tab.0.left" timestamp="1577502519539">
+    <state width="1878" height="334" key="GridCell.Tab.0.left" timestamp="1577503589251">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="334" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1577502519539" />
+    <state width="1878" height="334" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1577503589251" />
     <state width="1358" height="335" key="GridCell.Tab.0.left/0.23.1920.1139@0.23.1920.1139" timestamp="1577500742570" />
-    <state width="1878" height="334" key="GridCell.Tab.0.right" timestamp="1577502519540">
+    <state width="1878" height="334" key="GridCell.Tab.0.right" timestamp="1577503589253">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
-    <state width="1878" height="334" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1577502519540" />
+    <state width="1878" height="334" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1577503589253" />
     <state width="1358" height="335" key="GridCell.Tab.0.right/0.23.1920.1139@0.23.1920.1139" timestamp="1577500742571" />
     <state x="461" y="219" key="SettingsEditor" timestamp="1577499957446">
       <screen x="0" y="0" width="1920" height="1200" />
@@ -191,9 +200,9 @@
     <state x="618" y="235" width="683" height="729" key="find.popup/0.0.1920.1200@0.0.1920.1200" timestamp="1577502306762" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Pontos_Turisticos$migrate.coverage" NAME="migrate Coverage Results" MODIFIED="1577502519532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pontos_Turisticos$migrate.coverage" NAME="migrate Coverage Results" MODIFIED="1577503589244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pontos_Turisticos$runserver.coverage" NAME="runserver Coverage Results" MODIFIED="1577500109846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Pontos_Turisticos$makemigrations.coverage" NAME="makemigrations Coverage Results" MODIFIED="1577502515397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pontos_Turisticos$makemigrations.coverage" NAME="makemigrations Coverage Results" MODIFIED="1577503585816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pontos_Turisticos$makemigrations___migrate.coverage" NAME="makemigrations &amp; migrate Coverage Results" MODIFIED="1577501758933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
