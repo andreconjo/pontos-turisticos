@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="07caef1a-4340-4ca3-b465-4ebfaf0a81f0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enderecos/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/enderecos/api/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enderecos/api/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/enderecos/api/viewsets.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atracoes/api/viewsets.py" beforeDir="false" afterPath="$PROJECT_DIR$/atracoes/api/viewsets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pontos_turisticos/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pontos_turisticos/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -150,7 +149,7 @@
       <workItem from="1577497486068" duration="5000" />
       <workItem from="1577497503557" duration="4718000" />
       <workItem from="1577554801040" duration="674000" />
-      <workItem from="1577556346908" duration="2776000" />
+      <workItem from="1577556346908" duration="2899000" />
     </task>
     <servers />
   </component>
